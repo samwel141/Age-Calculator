@@ -110,11 +110,14 @@ align-items: center;
 border: none;
 border-radius: 50%;   
 position: absolute;
-right: 37%;
+right: 36%;
 top: 36%;
- 
+ transition: all .3s ease;
 
 }
+.section2 button:hover{
+    background-color: rgba(1, 1, 51, 0.925);
+} 
 
 
 .section3{
@@ -140,4 +143,28 @@ top: 36%;
     color: var(--pupple);
     padding: .5rem;
     font-weight: 1000;
+}
+
+/* ===============For Phones====================== */
+
+@media screen and (max-width: 600px) {
+    .section2 button{
+        width: 2.8rem;
+        height: 2.8rem;
+        padding: 20px;
+        display: flex;
+        background-color: var(--pupple);
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50%;   
+        position: absolute;
+        right:45%;
+        top: 37%;
+         transition: all .3s ease;
+        
+        }   
+        .section2 button:hover{
+            background-color: rgba(1, 1, 51, 0.925);
+        }       
 }
