@@ -1,0 +1,143 @@
+:root{
+    --pupple: hsl(259, 100%, 65%);
+    --lightred: hsl(0, 100%, 67%);
+    --white: hsl(0, 0%, 100%);
+    --offwhite: hsl(0, 0%, 94%);
+    --lightgray: hsl(0, 0%, 86%);
+    --smokegray: hsl(0, 1%, 44%);
+    --offblack: hsl(0, 0%, 8%);
+}
+
+@font-face{
+    font-family: "pop-bold";
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: "pop-reg";
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: "pop-bitalic";
+    src: url(./fonts/Poppins-BoldItalic.ttf);
+}
+
+@font-face{
+    font-family: "pop-xtrabold";
+    src: url(./fonts/Poppins-ExtraBold.ttf);
+}
+
+
+
+body{
+    /* margin: 7rem 25rem; */
+    background-color: var(--offwhite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-main{
+    background-color: var(--white);
+    height: 53vh;
+    min-width: 27vw;
+    padding: 2rem;
+    border-radius: 1rem 1rem 30% 1rem;
+    
+}
+
+.section1{
+    border-bottom: 2px solid var(--offwhite);
+    padding-bottom: 1.8rem;
+}
+
+.section1 form{
+    display: flex;
+    gap: 1rem;
+    width: 90%;
+    place-items: center;
+}
+
+.section1 form form-group{
+    display: grid;
+    gap: .7rem;
+}
+
+ label{
+    font-family: pop-xtrabold;
+    font-size: .8rem;
+    color: var(--smokegray);
+}
+
+.section1 form input{
+    padding: 5px;
+    width: 4rem;
+    border-radius: 5px;
+    border: 2px solid var(--offwhite);
+    outline: none;
+    font-family: pop-xtrabold;
+    font-size: 1.3rem;
+    color: var(--smokegray);
+}
+
+.section1 form input:focus{
+    border: 2px solid var(--pupple);
+}
+
+
+#err{
+    color: red;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.section2{
+    width: 100%;
+    margin-bottom: .4rem;
+   
+}
+
+.section2 button{
+width: 3rem;
+height: 3rem;
+padding: 30px;
+display: flex;
+background-color: var(--pupple);
+justify-content: center;
+align-items: center;
+border: none;
+border-radius: 50%;   
+position: absolute;
+right: 37%;
+top: 36%;
+ 
+
+}
+
+
+.section3{
+   display: grid;
+   gap: .1rem;
+   margin-top:2rem;
+   height: fit-content;
+   
+
+ 
+}
+
+.section3 p{
+    font-family: pop-xtrabold;
+    font-size: 1.8rem;
+
+    margin: 5px 0;
+    
+   
+}
+
+.section3 p span{
+    color: var(--pupple);
+    padding: .5rem;
+    font-weight: 1000;
+}
