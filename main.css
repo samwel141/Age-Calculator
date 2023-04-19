@@ -99,23 +99,21 @@ body{
    
 }
 
-.section2 button{
-width: 3rem;
-height: 3rem;
-padding: 30px;
-display: flex;
-background-color: var(--pupple);
-justify-content: center;
-align-items: center;
-border: none;
-border-radius: 50%;   
-position: absolute;
-right: 36%;
-top: 36%;
- transition: all .3s ease;
-
-}
-.section2 button:hover{
+button{
+    width: 3rem;
+    height: 3rem;
+    padding: 30px;
+    display: flex;
+    background-color: var(--pupple);
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;   
+    position: absolute;
+    right: 35%;
+    top: 40%;
+  }
+button:hover{
     background-color: rgba(1, 1, 51, 0.925);
 } 
 
@@ -148,7 +146,7 @@ top: 36%;
 /* ===============For Phones====================== */
 
 @media screen and (max-width: 600px) {
-    .section2 button{
+     button{
         width: 2.8rem;
         height: 2.8rem;
         padding: 20px;
@@ -159,12 +157,12 @@ top: 36%;
         border: none;
         border-radius: 50%;   
         position: absolute;
-        right:45%;
-        top: 37%;
+        right:49%;
+        top: 41.9%;
          transition: all .3s ease;
         
         }   
-        .section2 button:hover{
+        button:hover{
             background-color: rgba(1, 1, 51, 0.925);
         }       
 }

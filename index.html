@@ -14,32 +14,36 @@
             <form-group>
                 <label for="day">DAY</label>
                 <input type="number" name="day" id="day" placeholder="DD">
+                <p id="err"></p>
             </form-group>
             <form-group>
-                <label for="day">MONTH</label>
-                <input type="number" name="day" id="day" placeholder="MM">
+                <label for="month">MONTH</label>
+                <input type="number" name="month" id="month" placeholder="MM">
+                <p id="err"></p>
             </form-group>
             <form-group>
-                <label for="day">YEAR</label>
-                <input type="number" name="day" id="day" placeholder="YYY">
+                <label for="year">YEAR</label>
+                <input type="number" name="year" id="year" placeholder="YYY">
+                <p id="err"></p>
             </form-group>
+            <button id="submit" type="submit"><img src="./images/icon-arrow.svg" alt="submit"></button>
         </form>
     </section>
 
-
+<!-- 
     <section class="section2">
         <button id="submit" type="submit"><img src="./images/icon-arrow.svg" alt="submit"></button>
-    </section>
+    </section> -->
 
 
     <section class="section3">
-        <p><span>--</span>years</p>
-        <p><span>--</span>months</p>
-        <p><span>--</span>days</p>
+        <p><span id="Y">--</span>years</p>
+        <p><span id="M">--</span>months</p>
+        <p><span id="D">--</span>days</p>
     </section>
 </div>
 
 
-<script src="main.js"></script>    
+<script src="index.js"></script>    
 </body>
 </html>
